@@ -1,5 +1,5 @@
 const { test } = require("@jest/globals");
-
+const resta = require("../modules/calculadora.resta");
 
 
 test("La resta de 5 y 2 devuelve 3", () => {
@@ -8,7 +8,7 @@ test("La resta de 5 y 2 devuelve 3", () => {
     const b = 2;
     const esperado = 3;
     // act
-    const resultado = resta(a, b);
+    const resultado = resta
 
     // arrange
     expect(resultado).toBe(esperado)
