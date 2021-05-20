@@ -18,6 +18,6 @@ test("División de 6 / 3 igual a 2", () => {
     // act
     const resultado = division(a, b);
 
-    // arrange
-    expect(resultado).toBe(esperado);
+    // assert
+    expect(resultado).toBeClose(esperado, 5);
 })
