@@ -10,6 +10,6 @@ test("La resta de 5 y 2 devuelve 3", () => {
     // act
     const resultado = resta(a, b);
 
-    // arrange
+    // assert
     expect(resultado).toBe(esperado)
 })
