@@ -8,7 +8,7 @@ test("La resta de 5 y 2 devuelve 3", () => {
     const b = 2;
     const esperado = 3;
     // act
-    const resultado = resta
+    const resultado = resta(a, b);
 
     // arrange
     expect(resultado).toBe(esperado)
