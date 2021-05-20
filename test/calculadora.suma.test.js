@@ -1,4 +1,5 @@
 const { test } = require("@jest/globals");
+const suma = require("../modules/calculadora.suma");
 
 test("La suma de 2 y 5 devuelve 7", () => {
     // arrange
