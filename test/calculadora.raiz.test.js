@@ -1,4 +1,6 @@
 const { test } = require("@jest/globals");
+const raiz = require("../modules/calculadora.raiz");
+
 
 test("La raiz cuadrada de 16 es igual a 4", () => {
     //arrange
