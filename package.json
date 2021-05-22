@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/chdezreyes/labisa2/issues"
   },
-  "homepage": "https://github.com/chdezreyes/labisa2#readme"
+  "homepage": "https://github.com/chdezreyes/labisa2#readme",
+  "directories": {
+    "test": "test"
+  }
 }
