@@ -9,6 +9,6 @@ test("La suma de 2 y 5 devuelve 7", () => {
     // act
     const resultado = suma(a, b);
 
-    // arrange
+    // assert
     expect(resultado).toBe(esperado)
 })
