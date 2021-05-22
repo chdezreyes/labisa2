@@ -1,4 +1,6 @@
 const { test } = require("@jest/globals");
+const producto = require("../modules/calculadora.producto");
+
 
 test("La multiplicación de 2 por 5 devuelve 10", () => {
     // arrange

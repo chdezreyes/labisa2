@@ -4,7 +4,7 @@ const division = require("../modules/calculadora.division");
 test("El divisor sea mayor que 0", () => {
     // arrange
     const b = 2;
-    
+
     // arrange
     expect(b).not.toBe(0);
 })
@@ -19,5 +19,5 @@ test("División de 6 / 3 igual a 2", () => {
     const resultado = division(a, b);
 
     // assert
-    expect(resultado).toBeClose(esperado, 5);
+    expect(resultado).toBe(esperado);
 })
