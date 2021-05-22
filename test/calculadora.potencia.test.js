@@ -1,4 +1,5 @@
 const { test } = require("@jest/globals");
+const potencia = require("../modules/calculadora.potencia");
 
 test("La potencia de 2 elevado a 4 devuelve 16", () => {
     //arrange
