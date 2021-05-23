@@ -1,14 +1,6 @@
 const { test } = require("@jest/globals");
 const division = require("../modules/calculadora.division");
 
-test("El divisor sea mayor que 0", () => {
-    // arrange
-    const b = 2;
-
-    // arrange
-    expect(b).not.toBe(0);
-})
-
 test("División de 6 / 3 igual a 2", () => {
     // arrange
     const a = 6;
